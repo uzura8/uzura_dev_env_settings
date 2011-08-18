@@ -1,0 +1,9 @@
+escape ^Jj
+hardstatus alwayslastline "[%02c] %-w%{=b bw}%n %t%{-}%+w"
+startup_message off
+vbell off
+autodetach on
+defscrollback 10000
+defbce "on"
+term rxvt-256color
+termcapinfo xterm* ti@:te@

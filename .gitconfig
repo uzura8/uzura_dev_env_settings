@@ -1,0 +1,19 @@
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+
+[alias]
+co = checkout
+st = status
+ci = commit -v
+di = diff
+di-file = diff --name-only
+up = pull --rebase
+br = branch
+l  = log --graph --pretty=full --stat
+reset-commit = reset --hard ORIG_HEAD
+
+[core]
+excludesfile = /Users/shingo/.gitexcludes
