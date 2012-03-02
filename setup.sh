@@ -9,3 +9,5 @@ cp .vimrc ../
 
 source ../.bashrc
 
+# remove me
+rm ~/*
